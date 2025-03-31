@@ -1,4 +1,3 @@
-
 # 📊 Library Database System
 
 This project contains the necessary SQL scripts for the complete creation and setup of a **library-oriented database system**. It includes both the schema definitions, initial data inserts, and SQL queries for practice and testing.
@@ -34,7 +33,7 @@ This project contains the necessary SQL scripts for the complete creation and se
 - Referential integrity ensured
 - Realistic test data to simulate library operations
 - Includes queries to analyze user behavior, book loans, and activity logs
-
+- The manage_loan stored procedure in PostgreSQL manages book borrowing and returning operations in a library, ensuring data integrity and applying essential validations. It verifies the existence of patrons and books, controls that a patron does not have multiple active borrowings of the same book, and when processing returns, calculates the corresponding late fees and fines. It also implements error handling to maintain database consistency.
 ---
 
 ## 🧑‍💻 Author
